@@ -8,6 +8,6 @@ struct Person
 };
 
 int main() {
-    struct Person p 
+    struct Person p;
     
 }

@@ -12,13 +12,13 @@ int main() {
     struct Student* students = malloc(sizeof(struct Student) * number);
     
     for (int i = 0; i < number; i++) {
-        scanf("%c", &students[i].name);
+        scanf("%s", &students[i].name);
         scanf("%d", &students[i].age);
         scanf("%f", &students[i].gpa);
     }
     
     for (int i = 0; i < number; i++) {
-        printf("Name: %c \n", students[i].name);
+        printf("Name: %s \n", students[i].name);
         printf("Name: %d \n", students[i].age);
         printf("Name: %f \n", students[i].gpa);
         printf("\n");
