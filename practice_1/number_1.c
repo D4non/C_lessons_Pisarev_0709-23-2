@@ -13,4 +13,5 @@ int main() {
     else {
         printf("Вы не прошли отбор!\n");
     }
+    return 0;
 }
