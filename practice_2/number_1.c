@@ -24,4 +24,6 @@ int main() {
         printf("GPA: %f \n", students[i].gpa);
         printf("\n");
     }
+
+    return 0;
 }

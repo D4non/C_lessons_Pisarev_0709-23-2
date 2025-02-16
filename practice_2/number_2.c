@@ -24,4 +24,6 @@ int main() {
         printf("Price: %f \n", items[i].price);
         printf("\n");
     }
+
+    return 0;
 }
