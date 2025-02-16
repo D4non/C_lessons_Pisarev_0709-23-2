@@ -6,7 +6,7 @@ int main() {
     printf("Напишите расстояние, которое должен проехать луноход: ");
     scanf("%d", &distance);
 
-    if (distance > 0 && distance <= 5000) {
+    if (distance > 0 && distance <= 5000) { // в каких единицах distance?
         printf("Луноход сможет добраться до станции! \n");
     }
 
